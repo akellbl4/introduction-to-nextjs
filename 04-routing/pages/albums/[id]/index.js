@@ -1,4 +1,4 @@
-import Router, { useRouter } from 'next/router'
+import Router from 'next/router'
 
 import capitalize from 'lib/capitalize'
 import fetchAlbum from 'data/album'
@@ -36,8 +36,6 @@ export async function getStaticProps(ctx) {
 }
 
 export default function Albums({ album, photos }) {
-	const router = useRouter()
-
 	return (
 		<section>
 			<h2>
