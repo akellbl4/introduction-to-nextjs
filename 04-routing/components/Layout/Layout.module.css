@@ -1,0 +1,71 @@
+.container {
+	display: flex;
+	box-sizing: border-box;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px 0;
+	flex-direction: column;
+}
+
+/* Header */
+
+.header {
+	height: 80px;
+	display: flex;
+	margin-bottom: 40px;
+	flex-shrink: 0;
+	align-items: center;
+	border-bottom: 1px solid #e5e7eb;
+}
+
+.nav {
+	margin-left: auto;
+}
+
+.navLink:hover {
+	color: #075985;
+	text-decoration: none;
+}
+
+.navLink + .navLink {
+	margin-left: 10px;
+}
+
+/* Footer */
+
+.footer {
+	display: flex;
+	margin-top: auto;
+	padding-top: 20px;
+	border-top: 1px solid #e5e7eb;
+	justify-content: space-between;
+}
+
+.creds {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.credsItem {
+	margin-top: 10px;
+}
+
+.credsLink {
+	color: #6b7280;
+
+	&:hover {
+		color: #374151;
+		text-decoration: none;
+	}
+}
+
+.author {
+	color: #6b7280;
+	align-self: flex-end;
+}
+
+.authorLink:hover {
+	color: #075985;
+	text-decoration: none;
+}

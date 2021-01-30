@@ -1,0 +1,24 @@
+.root {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.item {
+	padding: 20px 0;
+}
+
+.item + .item {
+	border-top: 1px solid #e2e8f0;
+}
+
+.link {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.ssrLink {
+	float: right;
+}

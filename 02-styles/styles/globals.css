@@ -1,0 +1,23 @@
+html,
+body,
+main,
+#__next {
+	height: 100%;
+}
+
+h1,
+h2 {
+	font-weight: bold;
+}
+
+.highlight {
+	padding: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background-color: #f8f9fa;
+	border-radius: 8px;
+}
+
+.btn + .btn {
+	margin-left: 0.25em;
+}

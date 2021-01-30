@@ -1,0 +1,15 @@
+{
+  "author": {
+    "name": "Pavel Mineev",
+    "email": "pavel@mineev.me",
+    "url": "https://pavel.mineev.me"
+  },
+  "repository": {
+    "url": "https://github.com/akellbl4/introduction-to-nextjs.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}

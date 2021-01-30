@@ -1,0 +1,16 @@
+.root {
+	display: inline-block;
+}
+
+.figure {
+	max-width: 100px;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.caption {
+	margin-top: 10px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
