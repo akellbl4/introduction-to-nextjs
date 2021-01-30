@@ -1,7 +1,7 @@
 import fetchUser from 'lib/user'
 import Profile from 'components/Profile'
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 	const user = await fetchUser()
 
 	return {
